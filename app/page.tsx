@@ -1,4 +1,16 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+
+
 export default function Home(){
-  return <div> hello psusy</div> ;
+  return (
+  
+  <div className = "flex flex-col min-h-screen" id = "navbar"> 
+    <Hero/>
+    <Navbar/>
+  </div> 
+  
+
+);
 
 }

@@ -24,3 +24,30 @@
     color: var(--foreground);
     font-family: Arial, Helvetica, sans-serif;
   }
+
+
+  
+
+  .hero{
+    margin-left:50px;
+    margin-top:100px;
+
+  }
+
+  #name{
+    font-size: 3.5rem;
+  }
+
+  .hero h2 {
+  font-size: 1.4rem;
+  }
+
+  .hero p {
+  font-size: 1rem;
+  line-height: 1.6;
+  }
+
+  .navbar{
+    margin-top:30px;
+    margin-left:50px
+  }
