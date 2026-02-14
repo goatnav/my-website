@@ -1,0 +1,163 @@
+  @import "tailwindcss";
+
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+
+  @theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #0a0a0a;
+      --foreground: #ededed;
+    }
+  }
+
+
+  #container {
+    display: flex;
+    min-height: 100vh;
+    
+  }
+
+  #left{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 40%;
+    
+
+  }
+
+  #right {
+    height: 100vh;          /* <-- add this */
+    overflow-y: auto;
+    scroll-behavior: smooth; /* optional but nice */
+    width: 60%;
+    max-width: 1000px;
+    padding: 1rem 7rem 4rem 7rem;
+    background-color: maroon;
+    color: white;
+    
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .hero{
+    margin-left:50px;
+    margin-top:75px;
+
+  }
+
+  #name{
+    font-size: 3.5rem;
+  }
+
+  .hero h2 {
+  font-size: 1.4rem;
+  }
+
+  .hero p {
+  font-size: 1rem;
+  line-height: 1.6;
+  }
+
+  .navbar{
+    margin-top:75px;
+    margin-left:50px;
+    font-size: 1rem;
+    /* background-color: white; */
+
+  }
+
+  #socials{
+    margin-left:50px;
+    margin-top:100px;
+    font-size: xx-large;
+  }
+
+
+  #xpCard{
+    display:flex;
+    background: maroon;
+
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    border-radius: 14px;
+
+    padding: 1rem;
+
+    transition: all 0.25s ease;
+  }
+
+  #xpCard:hover{
+    background: rgba(30, 41, 59, 0.85); 
+
+    border-color: rgba(94, 234, 212, 0.6); 
+
+    box-shadow: 0 8px 40px rgba(94, 234, 212, 0.12);
+
+  }
+
+  #xpLeft{
+    width: 20%;
+    font-size: small;
+  }
+  #xpRight{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+  }
+
+
+
+  /* PROJECT CARD */
+
+.project-card {
+  background: rgba(15, 23, 42, 0.6);
+
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  border-radius: 14px;
+
+  padding: 2rem;
+
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.project-card:hover {
+  border-color: rgba(94, 234, 212, 0.5);
+
+  box-shadow: 0 0 35px rgba(94, 234, 212, 0.15);
+
+  transform: translateY(-6px);
+}
+
+
+/* TAG PILL */
+
+.tag {
+  background: rgba(94, 234, 212, 0.15);
+
+  color: #5eead4;
+
+  padding: 4px 12px;
+
+  border-radius: 999px;
+
+  font-size: 0.75rem;
+
+  white-space: nowrap;
+}
+
+
+
