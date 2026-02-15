@@ -25,7 +25,7 @@ export default function Projects() {
             "Docker",
             "PostgreSQL",
           ]}
-          github="https://github.com/yourusername/valinx"
+          github="https://github.com/goatnav/valinx-system-anomaly-detection"
         />
 
         {/* PROJECT ARGUS */}
