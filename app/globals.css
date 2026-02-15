@@ -72,13 +72,13 @@
   line-height: 1.6;
   }
 
-  .navbar{
-    margin-top:75px;
-    margin-left:50px;
-    font-size: 1rem;
-    /* background-color: white; */
+ .navbar{
+  margin-top:75px;
+  margin-left:50px;
+  font-size: 1rem;
+  /* background-color: white;  <-- remove this */
+}
 
-  }
 
   #socials{
     margin-left:50px;
