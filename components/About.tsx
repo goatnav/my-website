@@ -3,7 +3,7 @@ export default function About(){
 
     return(
 
-        <div id="about" className="scroll-mt-24">
+        <div id="about">
                   <h3 className="text-3xl font-bold pt-20">
                      About <b></b>
                    </h3>

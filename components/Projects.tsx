@@ -2,10 +2,10 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
-    <section id="projects" className="scroll-mt-24 space-y-10">
+    <section id="projects" className="space-y-10">
 
       {/* SECTION TITLE */}
-      <h3 className="text-3xl font-bold mt-20">
+      <h3 className="text-3xl font-bold pt-20">
         Projects
       </h3>
 

@@ -23,8 +23,8 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <div id = "experience" className="scroll-mt-24">
-      <h3 className="text-3xl font-bold mt-25">
+    <div id = "experience">
+      <h3 className="text-3xl font-bold pt-20">
         Experience 
         <b></b>
       </h3>
